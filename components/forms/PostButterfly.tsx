@@ -72,7 +72,7 @@ function PostButterfly({ userId }: Props) {
         />
 
         <Button type='submit' className='bg-primary-500'>
-          Post Butterfly
+          Post 
         </Button>
       </form>
     </Form>

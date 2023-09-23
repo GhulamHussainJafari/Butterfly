@@ -14,7 +14,7 @@ async function Page() {
 
   return (
     <>
-      <h1 className='head-text'>Create Butterfly</h1>
+      <h1 className='head-text'>Create Post</h1>
 
       <PostButterfly userId={userInfo._id} />
     </>
