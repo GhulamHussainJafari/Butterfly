@@ -38,7 +38,7 @@ interface Props {
   accountType: string;
 }
 
-async function butterflyTab({ currentUserId, accountId, accountType }: Props) {
+async function ButterflyTab({ currentUserId, accountId, accountType }: Props) {
   let result: Result;
 
   if (accountType === "Community") {
@@ -82,4 +82,4 @@ async function butterflyTab({ currentUserId, accountId, accountType }: Props) {
   );
 }
 
-export default butterflyTab;
+export default ButterflyTab;

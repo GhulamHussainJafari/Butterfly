@@ -28,7 +28,7 @@ function DeleteButterfly({
   return (
     <Image
       src='/assets/delete.svg'
-      alt='delte'
+      alt='delete'
       width={18}
       height={18}
       className='cursor-pointer object-contain'

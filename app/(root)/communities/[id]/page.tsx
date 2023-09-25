@@ -4,7 +4,7 @@ import { currentUser } from "@clerk/nextjs";
 import { communityTabs } from "@/constants";
 
 import UserCard from "@/components/cards/UserCard";
-import butterflyTab from "@/components/shared/butterflyTab";
+import ButterflyTab from "@/components/shared/ButterflyTab";
 import ProfileHeader from "@/components/shared/ProfileHeader";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -53,7 +53,7 @@ async function Page({ params }: { params: { id: string } }) {
 
           <TabsContent value='butterfly' className='w-full text-light-1'>
             {/* @ts-ignore */}
-            <butterflyTab
+            <ButterflyTab
               currentUserId={user.id}
               accountId={communityDetails._id}
               accountType='Community'
