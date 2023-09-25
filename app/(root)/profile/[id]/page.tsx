@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 
 import { profileTabs } from "@/constants";
 
-import butterflyTab from "@/components/shared/butterflyTab";
+import ButterflyTab from "@/components/shared/ButtterflyTab";
 import ProfileHeader from "@/components/shared/ProfileHeader";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -57,7 +57,7 @@ async function Page({ params }: { params: { id: string } }) {
               className='w-full text-light-1'
             >
               {/* @ts-ignore */}
-              <butterflyTab
+              <ButterflyTab
                 currentUserId={user.id}
                 accountId={userInfo.id}
                 accountType='User'
